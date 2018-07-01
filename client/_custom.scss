@@ -1,0 +1,42 @@
+// Variables go here
+$fa-font-path: "~/node_modules/font-awesome/fonts";
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/font-awesome/scss/font-awesome";
+
+.searchBox {
+    padding: 15px;
+    background-color: #eeeeee;
+
+    .searchIcon {
+        padding-top: 10px;
+        padding-right: 0px;
+    }
+    .searchBar {
+        width: 100%;
+    }
+    .sortIcon {
+        padding-top: 7px;
+    }
+    .sortLabel {
+        line-height: 35px;
+        text-align: center;
+    }
+}
+
+.launchResult{
+    padding: 15px;
+
+    .missionPatch {
+        width: 128px;
+        height: 128px;
+    }
+    .missionDetails {
+        color: rgb(110, 110, 110);
+        font-size: 16px; 
+    }
+}
+
+.about {
+    padding-top: 20px;
+}
